@@ -131,7 +131,7 @@ function gerarNuvens() {
     nuvem.velocityX = -3;
     
      //atribuir tempo de duração à variável
-    nuvem.lifetime = width/2; 
+    nuvem.lifetime = width/2 + 200; 
     
     //ajustando a profundidade
     nuvem.depth = trex.depth;
@@ -169,7 +169,7 @@ function gerarObstaculos() {
     
     //atribuir escala e tempo de duração ao obstáculo           
     obstaculo.scale = 0.5;
-    obstaculo.lifetime = width/2;
+    obstaculo.lifetime = width/2 + 200;
     //adicionar cada obstáculo ao grupo
     grupoDeObstaculos.add(obstaculo);
   }
